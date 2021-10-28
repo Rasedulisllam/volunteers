@@ -1,0 +1,17 @@
+
+
+.event-col:nth-child(5n+1) .event-title{
+    background-color: #ffbd3e;
+}
+.event-col:nth-child(5n+2) .event-title{
+    background-color: #ff7044;
+}
+.event-col:nth-child(5n+3) .event-title{
+    background-color: #3f90fc;
+}
+.event-col:nth-child(5n+4) .event-title{
+    background-color: #421fcf;
+}
+.event-col:nth-child(5n+5) .event-title{
+    background-color: #3f90fc;
+}

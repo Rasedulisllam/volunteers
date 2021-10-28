@@ -1,0 +1,21 @@
+.banner{
+    background:url('../../images/benner/team-volunteers-stacking-ha.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height:60vh;
+    z-index:9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner::after{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height:100%;
+    background-color:rgba(255, 253, 253, 0.87);
+    z-index:-1;
+}
